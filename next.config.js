@@ -5,6 +5,7 @@ const nextConfig = {
   images: {
     domains: ["firebasestorage.googleapis.com"],
   },
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;
