@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { auth, db } from "../utils/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useRouter } from "next/router";
+import Message from "../components/Message";
 import {
   collection,
   query,
@@ -11,7 +12,6 @@ import {
   doc,
 } from "firebase/firestore";
 import { Icon } from "@iconify/react";
-import Message from "../components/Message";
 import Link from "next/link";
 import Head from "next/head";
 
