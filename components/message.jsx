@@ -53,7 +53,7 @@ const MessageStyle = styled.div`
     transition: 0.3s all;
   }
 `;
-export default function Message({
+function Message({
   children,
   avatar,
   username,
@@ -93,3 +93,5 @@ export default function Message({
     </MessageStyle>
   );
 }
+
+export default Message;
