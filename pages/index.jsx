@@ -6,7 +6,7 @@ import { Icon } from "@iconify/react";
 import styled from "styled-components";
 import PostDetail from "../components/PostDetail";
 import Modal from "../components/Modal";
-import Message from "../components/Message";
+import Message from "../components/message";
 
 const HomeStyle = styled.div`
   .iconify {
