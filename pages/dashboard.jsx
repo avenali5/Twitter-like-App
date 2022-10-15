@@ -11,7 +11,7 @@ import {
   doc,
 } from "firebase/firestore";
 import { Icon } from "@iconify/react";
-import Message from "../components/message";
+import Message from "../components/Message";
 import Link from "next/link";
 import Head from "next/head";
 

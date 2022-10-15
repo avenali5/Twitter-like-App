@@ -12,7 +12,7 @@ import {
   Timestamp,
   updateDoc,
 } from "firebase/firestore";
-import Message from "./message";
+import Message from "./Message";
 
 const PostDetailStyle = styled.div`
   max-height: 40rem;
