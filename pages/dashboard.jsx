@@ -15,7 +15,7 @@ import Message from "../components/Message";
 import Link from "next/link";
 import Head from "next/head";
 
-export default function dashboard() {
+export default function Dashboard() {
   const route = useRouter();
   const [user, loading] = useAuthState(auth);
   const [allPosts, setAllPosts] = useState([]);

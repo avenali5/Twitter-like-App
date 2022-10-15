@@ -6,7 +6,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { Icon } from "@iconify/react";
 import Head from "next/head";
 
-const login = () => {
+const Login = () => {
   const route = useRouter();
   const [user, loading] = useAuthState(auth);
 
@@ -53,4 +53,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default Login;

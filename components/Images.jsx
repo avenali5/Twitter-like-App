@@ -59,9 +59,9 @@ function Images({ children, imagesArr }) {
     <ImagesStyle>
       {images &&
         images.map((img, i) => (
-          <div>
+          <div key={i}>
             <div className='img-container'>
-              <img key={i} src={img.src} onClick={() => handleOpenImg(i)} />
+              <img src={img.src} onClick={() => handleOpenImg(i)} />
             </div>
             {modal && i === OIndex && (
               <Modal setModal={setModal}>
