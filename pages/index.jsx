@@ -1,12 +1,12 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
-import Message from "../components/Message";
 import { db } from "../utils/firebase";
 import { collection, onSnapshot, orderBy, query } from "firebase/firestore";
 import { Icon } from "@iconify/react";
 import styled from "styled-components";
 import PostDetail from "../components/PostDetail";
 import Modal from "../components/Modal";
+import Message from "../components/Message";
 
 const HomeStyle = styled.div`
   .iconify {

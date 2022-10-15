@@ -10,7 +10,7 @@ import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { auth, db } from "../utils/firebase";
-import Message from "../components/message";
+import Message from "../components/Message";
 import Head from "next/head";
 
 function PostDetails() {
